@@ -1,9 +1,9 @@
 
 body {
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
     height: 100vh;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -37,12 +37,27 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
+    min-width: 300px;
+    max-width: 300px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin: 20px 5px;
 }
 
 #increment {
     background: darkred;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+#save{
+    background: green;
+    margin-top: 0;
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.save-no{
+    font-size: 16px;
+    font-weight: 400;
 }

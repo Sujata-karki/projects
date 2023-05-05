@@ -1,5 +1,6 @@
 const countEl = document.getElementById("count-El");
 const incrementEl = document.getElementById("increment");
+const saveEl = document.getElementById("save");
 let count = 0;
 
 incrementEl.addEventListener("click", ()=>{
@@ -7,4 +8,7 @@ incrementEl.addEventListener("click", ()=>{
     countEl.innerText = count;
 })
 
+saveEl.addEventListener("click",()=>{
+    
+})
 
