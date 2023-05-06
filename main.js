@@ -1,14 +1,16 @@
 const countEl = document.getElementById("count-El");
 const incrementEl = document.getElementById("increment");
-const saveEl = document.getElementById("save");
+const saveBtnEl = document.getElementById("save-btn");
+const saveEl = document.getElementById("save-el");
 let count = 0;
 
 incrementEl.addEventListener("click", ()=>{
-    count = count + 1;
+    count += 1;
     countEl.innerText = count;
 })
 
-saveEl.addEventListener("click",()=>{
-    
+saveBtnEl.addEventListener("click",()=>{
+    const countStr = count + " - ";
+    saveEl.innerText = count;
+    console.log(count)
 })
-

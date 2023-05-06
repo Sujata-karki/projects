@@ -50,14 +50,14 @@ button {
     margin-left: 20px;
     margin-right:20px;
 }
-#save{
+#save-btn{
     background: green;
     margin-top: 0;
     margin-bottom:20px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.save-no{
+#save-el{
     font-size: 16px;
     font-weight: 400;
 }
